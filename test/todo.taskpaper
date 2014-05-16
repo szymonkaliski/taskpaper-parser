@@ -1,0 +1,10 @@
+Some project:
+	- thing 1
+	- thing 2 @priority(2)
+		comment for thing 2
+	- thing 3 @next
+	
+	Subproject:
+		comment for project
+
+		- some other task @priority(1)
