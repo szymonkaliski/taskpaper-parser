@@ -1,10 +1,10 @@
 var TaskPaperParser = require("../lib/parser");
 
-var Root = TaskPaperParser.root;
-var Project = TaskPaperParser.project;
-var Task = TaskPaperParser.task;
-var Tag = TaskPaperParser.tag;
-var Comment = TaskPaperParser.comment;
+var Root = TaskPaperParser.Root;
+var Project = TaskPaperParser.Project;
+var Task = TaskPaperParser.Task;
+var Tag = TaskPaperParser.Tag;
+var Comment = TaskPaperParser.Comment;
 
 // root holds everything in the file
 var root = new Root();

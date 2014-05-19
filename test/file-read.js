@@ -1,5 +1,5 @@
 var fs = require("fs");
-var Parser = require("../lib/parser").parser;
+var Parser = require("../lib/parser").Parser;
 
 var taskPaperFile = __dirname + "/todo.taskpaper";
 

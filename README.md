@@ -14,7 +14,7 @@ This will parse taskpaper file, and log parsed output as JSON.
 
 ```js
 var fs = require("fs");
-var Parser = require("taskpaper-parser").parser;
+var Parser = require("taskpaper-parser").Parser;
 
 var taskPaperFile = __dirname + "/todo.taskpaper";
 
@@ -37,11 +37,11 @@ This will create taskpaper project, and serialize it into a string.
 ```js
 var TaskPaperParser = require("taskpaper-parser");
 
-var Root = TaskPaperParser.root;
-var Project = TaskPaperParser.project;
-var Task = TaskPaperParser.task;
-var Tag = TaskPaperParser.tag;
-var Comment = TaskPaperParser.comment;
+var Root = TaskPaperParser.Root;
+var Project = TaskPaperParser.Project;
+var Task = TaskPaperParser.Task;
+var Tag = TaskPaperParser.Tag;
+var Comment = TaskPaperParser.Comment;
 
 // root holds everything in the file
 var root = new Root();
